@@ -1,0 +1,8 @@
+.custom-social.scf-review-form {
+    display : block;
+}
+.scf-review-form .scf-review-form-label-bold{
+    color: red;
+        }
+        .scf-composer-block.scf-is-collapsed input, .scf-composer-block.scf-is-collapsed label{
+display: block;}
