@@ -30,18 +30,18 @@ public class CustomComment extends AbstractComment implements Comment{
 
     //adding extra method
     public String getAuthorId(){
-        System.out.print("\n\n-->authorid");
+       // System.out.print("\n\n-->authorid");
         return "1rima";
           //return this.getAuthor().getUserId();
     }
 
     public User getAuthor() {
-        System.out.print("\n\n-->authorr");
+       // System.out.print("\n\n-->authorr");
         return null;
     }
 
     public String getTestrima(){
-        System.out.print("\n\n-->rima");
+        //System.out.print("\n\n-->rima");
         return "RIma";
     }
 
