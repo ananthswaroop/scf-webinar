@@ -27,22 +27,4 @@ public class CustomComment extends AbstractComment implements Comment{
             throws RepositoryException {
         super(resource, clientUtils, queryInfo, commentListProviderManager);
     }
-
-    //adding extra method
-    public String getAuthorId(){
-       // System.out.print("\n\n-->authorid");
-        return "1rima";
-          //return this.getAuthor().getUserId();
-    }
-
-    public User getAuthor() {
-       // System.out.print("\n\n-->authorr");
-        return null;
-    }
-
-    public String getTestrima(){
-        //System.out.print("\n\n-->rima");
-        return "RIma";
-    }
-
 }
